@@ -1,5 +1,7 @@
 {
     "project_name": "ken",
     "pypi_name": "ken",
-    "desc": "Generate by cookiecutter"
+    "desc": "Generate by cookiecutter",
+    "author": "x1ah",
+    "email": "x1ahgxq@gmail.com"
 }

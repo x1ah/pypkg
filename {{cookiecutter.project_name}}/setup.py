@@ -18,9 +18,9 @@ setup(
 
     description='{{cookiecutter.desc}}',
     long_description=long_description,
-    url='https://github.com/x1ah/{{cookiecutter.project_name}}',
-    author='x1ah',
-    author_email='x1ahgxq@gmail.com',
+    url='https://github.com/{{cookiecutter.author}}/{{cookiecutter.project_name}}',
+    author='{{cookiecutter.author}}',
+    author_email='{{cookiecutter.email}}',
     packages=find_packages(exclude=['docs', 'tests*']),
     license='MIT',
     classifiers=[
