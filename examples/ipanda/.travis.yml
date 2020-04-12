@@ -1,0 +1,13 @@
+language: python
+
+script:
+  - echo OK
+
+deploy:
+  provider: pypi
+  user: x1ah
+  password:
+    secure: ""
+  distributions: sdist bdist_wheel
+  on:
+    tags: true
