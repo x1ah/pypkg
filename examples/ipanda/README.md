@@ -1,3 +1,0 @@
-## ipanda
-
-Generate by cookiecutter
